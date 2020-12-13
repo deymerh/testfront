@@ -1,0 +1,32 @@
+.Header {
+  background-color: var(--main-color);
+  width: 100%;
+}
+.Header figure {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.Title {
+  background-color: var(--background-color-nav);
+  padding: 20px 10px;
+}
+.Title h2 {
+  color: var(--text-color);
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+.Section {
+  display: flex;
+}
+.Section p {
+  color: var(--text-color);
+  margin-left: 5px;
+}
+.Section__Title {
+  font-size: 16px;
+}
+.SubSection__Title {
+  font-size: 14px;
+}

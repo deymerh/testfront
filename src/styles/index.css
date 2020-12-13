@@ -1,0 +1,12 @@
+:root {
+  --main-color: #dd141d;
+  --text-color: #575757;
+  --text-color2: #575756;
+  --background-color-nav: #d9d9d9;
+  --background-container: #eaeaea;
+  --button-color: #dd141d;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+}

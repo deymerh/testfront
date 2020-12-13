@@ -1,0 +1,6 @@
+.Benefits {
+  display: flex;
+}
+.Benefits p {
+  color: var(--text-color2);
+}

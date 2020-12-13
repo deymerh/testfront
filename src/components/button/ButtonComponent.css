@@ -1,0 +1,15 @@
+.Container__button {
+  text-align: center;
+}
+
+.Btn__main {
+  background-color: var(--button-color);
+  border: none;
+  color: #fff;
+  border-radius: 7px;
+  padding: 10px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  width: fit-content;
+}

@@ -1,0 +1,13 @@
+.Btn__back {
+  display: flex;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+}
+.Btn__back p {
+  color: var(--text-color);
+  margin-left: 5px;
+}
+.Btn__back:hover {
+  cursor: pointer;
+}
