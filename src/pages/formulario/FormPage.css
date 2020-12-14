@@ -1,0 +1,70 @@
+.ContainerFom {
+  background-color: var(--background-container);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+}
+
+.Modal__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 10px;
+  border-bottom: 0.5px solid #ccc;
+}
+.Modal h3,
+h4,
+p {
+  color: var(--text-color);
+}
+.Modal__conatiner {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.Modal__ad {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.Modal__item {
+  margin: 10px 0px;
+  display: flex;
+}
+.Modal__item p {
+  margin-left: 5px;
+}
+.Modal__polity p {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+.Modal__btns {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 15px 0px;
+}
+.Modal__btns button {
+  padding: 7px 13px;
+  outline: none;
+  border: none;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 5px;
+  color: white;
+  letter-spacing: 1px;
+}
+.Modal__btns-2 {
+  background-color: var(--main-color);
+}
+.Modal__btns-1 {
+  background-color: var(--text-color2);
+}
+.Modal__bottom {
+  text-align: center;
+}

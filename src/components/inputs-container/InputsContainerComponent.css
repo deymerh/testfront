@@ -1,0 +1,82 @@
+.InputsContainer {
+  background-color: var(--background-container-inputs);
+  box-shadow: 0px 1px 3px #00000029;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 10px;
+}
+.InputsContainer p {
+  font-size: 13px;
+  color: var(--text-color);
+  font-weight: 600;
+}
+.InputsContainer label {
+  font-size: 12px;
+  color: var(--text-color);
+}
+.InputsContainer input {
+  width: 100%;
+  height: 35px;
+  border: 0.5px solid var(--color-border-input);
+  color: var(--text-color);
+  border-radius: 5px;
+  outline: none;
+  font-size: 12px;
+  padding: 0px 3px;
+}
+.Input__option {
+  margin-top: 2px;
+  width: 100%;
+  height: 27px;
+  border: solid 0.5px;
+  border-color: var(--color-border-input);
+  border-radius: 5px;
+  color: var(--text-color);
+  font-size: 12px;
+  outline: none;
+}
+.InputsContainer select {
+  height: 35px;
+  color: var(--text-color);
+  background-color: white;
+}
+.Asesor__back {
+  font-weight: 700;
+}
+.Icon__dv-edi {
+  position: relative;
+}
+.Icon__dv-edi div {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  height: 40%;
+  left: 91%;
+  top: 31%;
+  height: 67%;
+}
+.Icon__dv-edi button {
+  border: none;
+  background: transparent;
+  outline: none;
+}
+.Icon__dv-edi2 {
+  position: relative;
+}
+.Icon__dv-edi2 div {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 92%;
+  top: 58%;
+  background-color: var(--background-color-nav);
+  border-radius: 50%;
+}
+.Icon__dv-edi2 button {
+  border: none;
+  background: transparent;
+  outline: none;
+  color: #fff;
+}

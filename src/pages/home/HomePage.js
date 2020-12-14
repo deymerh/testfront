@@ -2,6 +2,7 @@ import React from 'react';
 import BackButtonComponent from '../../components/back-button/BackButtonComponent';
 import BenefitsComponents from '../../components/benefits/BenefitsComponents';
 import HeaderComponent from '../../components/header/HeaderComponent';
+import { Link } from 'react-router-dom';
 import './HomePage.css';
 
 //icons
@@ -21,7 +22,9 @@ const HomePage = () => {
     <>
       <HeaderComponent />
       <div className="ContainerHome">
-        <BackButtonComponent />
+        <Link to="/">
+          <BackButtonComponent />
+        </Link>
         <BenefitsComponents
           icon={Iconmoney}
           text={MoneyText}
@@ -39,7 +42,9 @@ const HomePage = () => {
           text={PensionText}
         />
         <p className="Ad">Este producto cuenta con el seguro de depósitos <span>FOGAFIN</span> </p>
-        <ButtonComponent />
+        <Link to="/form">
+          <ButtonComponent />
+        </Link>
       </div>
     </>
   );

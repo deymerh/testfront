@@ -1,5 +1,7 @@
 .Container__button {
   text-align: center;
+  outline: none;
+  border: none;
 }
 
 .Btn__main {
@@ -12,4 +14,6 @@
   letter-spacing: 1px;
   font-weight: 600;
   width: fit-content;
+  outline: none;
+  border-style: none;
 }
