@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Puedes ver el proyecto aqui:
+
+"https://github.com/deymerh/testfront"
 
 "Para correr la aplicación: Debes instalar las dependencias del proyecto ejecuntando en tu terminal npm install estando en la carpeta raiz del proyecto"
 
